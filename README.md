@@ -1,7 +1,7 @@
 # Netflix Content Analysis Dashboard
 
 ## Project Overview
-This project provides a comprehensive analysis of Netflix's content library, utilizing **SQL** for data extraction, **Power Query** for ETL (Extract, Transform, Load) processes, and **Excel** for visualization and reporting.
+This project provides a comprehensive analysis of Netflix's content library, utilizing **PostgreSQL** for data extraction, **Power Query** for ETL (Extract, Transform, Load) processes, and **Excel** for visualization and reporting.
 
 The objective of this analysis was to uncover key insights regarding content strategy and platform evolution, specifically:
 
@@ -11,7 +11,7 @@ The objective of this analysis was to uncover key insights regarding content str
 * **Geographic Insights:** Determining the top contributing countries to Netflix's library.
 * **Creative Influence:** Highlighting the most prolific directors.
 * **Duration Metrics:** Calculating the average movie duration segmented by genre.
-* **Growth Over Time:** Tracking the trajectory of Netflix's content acquisition and production year-over-year.
+* * **Growth Over Time:** Tracking Netflix's content additions and catalog expansion over time.
 
 ---
 
@@ -23,7 +23,10 @@ The objective of this analysis was to uncover key insights regarding content str
 ---
 
 ## Dataset
-* **Source:** Netflix Titles Dataset
+
+**Source:** Netflix Titles Dataset
+
+The dataset contains information about movies and TV shows available on Netflix, including title, type, director, cast, country, release year, rating, duration, genres, and date added.
 
 ---
 
@@ -45,8 +48,13 @@ The objective of this analysis was to uncover key insights regarding content str
 ## Final Conclusion
 Netflix's catalog is primarily movie-focused, with strong emphasis on mature audiences and international productions. The platform expanded aggressively between 2016 and 2019, reflecting a strategy centered on global content acquisition and subscriber growth.
 
----
+## Repository Structure
 
-## How to Set Up Repository Topics
-To help recruiters find your project, navigate to your repository's **About** section, click the gear (⚙) icon, and add the following topics:
-`sql`, `excel`, `power-query`, `data-analysis`, `dashboard`, `netflix`, `postgresql`, `data-visualization`
+```text
+Netflix-Content-Analysis
+│
+├── Dashboard
+├── Dataset
+├── Images
+├── SQL Queries
+└── README.md
